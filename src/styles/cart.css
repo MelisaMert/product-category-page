@@ -1,0 +1,27 @@
+.cart {
+    height: 360px;
+    width: 360px;
+    border-radius: 4px;
+    position: absolute;
+    margin-left: -242px;
+    border: 1px solid #B0B0B0;
+    background: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    overflow-y:auto;
+    margin-top: -1px;
+    z-index: 1;
+    border-top-right-radius: 0px;
+}
+
+.empty-cart {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.total-amount {
+    display: flex;
+    position:absolute;
+    top: 200px;
+}

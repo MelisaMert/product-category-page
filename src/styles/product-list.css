@@ -1,0 +1,18 @@
+.product-wrapper {
+    display: flex;
+    width: 100%;
+    gap: 14px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.pagination-wrapper {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.empty-product-list {
+    margin: auto;
+    font-size: 22px;
+    margin-top: 20px;
+}

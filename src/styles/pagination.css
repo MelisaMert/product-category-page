@@ -1,0 +1,35 @@
+.pagination {
+  display: flex; 
+  list-style: none;
+  gap: 13px;
+}
+
+.pagination-item {
+    display: flex;
+    width: 33px;
+    height: 33px;
+    border:solid 1px rgba(229, 229, 229, 1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+}
+
+.pagination-item > a {
+    color: black;
+}
+
+.pagination-active-item {
+    display: flex;
+    width: 33px;
+    height: 33px;
+    border:solid 1px rgba(229, 229, 229, 1);
+    justify-content: center;
+    align-items: center;
+    border-radius: 9px;
+    background-color: #FF6000;
+    color: #ffffff;
+}
+
+.active-page {
+    background-color: #FF6000;
+}

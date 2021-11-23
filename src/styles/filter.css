@@ -1,0 +1,28 @@
+.filter {
+    min-width: 290px;
+    margin-left: 80px;
+}
+
+.filter-header {
+    font-weight: bold;
+    display: flex;
+    color: #484848;
+}
+
+.filter span {
+    display: flex;
+    color: #646464;
+    cursor: pointer;
+}
+
+.filter span:hover {
+    color: #FF6000;
+}
+
+.active-filter {
+    color: #FFFFFF;
+}
+
+.active-sorter {
+    color: #FF6000 !important;
+}

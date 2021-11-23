@@ -1,0 +1,141 @@
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin: auto;
+    margin-top: 20px;
+    color: #484848;
+    font-size: 24px;
+    font-weight: 700;
+    min-width: 1200px;
+    max-width: 1440px;
+  }
+
+.sub-header p {
+    display: flex;
+    margin: 0px;
+}
+
+.search-word-header {
+    color: #B0B0B0;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.search-word {
+    font-size: 15px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+
+
+.product-name {
+    margin-left: 80px;
+}
+
+
+body {
+    color: #000000;
+    font-family: Sans-Serif;
+    padding: 30px;
+    background-color: #f6f6f6;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+a:hover {
+    color: #222222
+}
+   
+.dropdown {
+    display: inline-block;
+    position: relative;
+    font-size: 14px;
+    font-weight: normal;
+ }
+  
+ .sorting-button {
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 10px 30px 10px 20px;
+    background-color: #ffffff;
+    cursor: pointer;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: normal;
+    color: #B0B0B0;
+    border: 1px solid #B0B0B0;
+  }
+  
+  .sorting-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid black;margin-top: -4px;
+  }
+  
+ .sorting-button:hover {
+    background-color: #eeeeee;
+  }
+  
+  .dropdown-input {
+    display: none;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 0;
+    margin: 2px 0 0 0;
+    background-color: #373737;
+    color: #ffffff;
+    list-style-type: none;
+    width: 274px;
+    height: 152px;
+    right: -2px;
+    margin-top: -11px;
+}
+  
+  .dropdown-input + .dropdown-menu {
+    display: none;
+  } 
+  
+  .dropdown-input:checked + .dropdown-menu {
+    display: block;
+  } 
+  
+  .dropdown-menu li {
+    padding: 10px 20px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  
+  .dropdown-menu li:hover {
+    background-color: #1d5cd4;
+    color: #ffffff;
+  }
+  
+  .dropdown-menu li a {
+    display: block;
+    margin: -10px -20px;
+    padding: 10px 20px;
+  }
+  
+  .dropdown-menu li.divider{
+    padding: 0;
+    border-bottom: 1px solid #cccccc;
+  }
